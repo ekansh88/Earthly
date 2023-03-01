@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Starter Pack</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script async src="script.js"></script>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <header class="navBar">
+        <div class="topnav">
+            <a href="#" class="toHomeLink">Earthly</a>
+        </div>
+        <div class="navLink">
+            <button class="homeBtn navBtn">Home</button>
+            <button class="shopBtn navBtn">Shop</button>
+            <button class="contactBtn navBtn">GET IN TOUCH</button>
+            <img src="Resources/cart.png" alt="" class="problemsBtn navBtn cart-img">
+        </div>
+    </header>
+    <!---->
+
+    <section class="main">
+        
+        <section class = "main-section">
+
+            <img src="Resources/s1.webp" alt="" class="main-img-blur" id = "main-img-blur">
+
+            <section class="main-subsection">
+                <!-- <img src="Resources/s1.webp" alt="" class="main-img"> -->
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1</div>
+                        <img src="Resources/s1.webp" style="width:100%" class = "main-img">
+                        <div class="text">Kit</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                        <div class="numbertext">2</div>
+                        <img src="Resources/s2.webp" style="width:100%" class = "main-img">
+                        <div class="text">Plant Based Reusable Cup</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                        <div class="numbertext">3</div>
+                        <img src="Resources/s3.webp" style="width:100%" class = "main-img">
+                        <div class="text">Bamboo Straws</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4</div>
+                        <img src="Resources/s4.webp" style="width:100%" class = "main-img">
+                        <div class="text">Bamboo Cotton Eartips</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">5</div>
+                        <img src="Resources/s5.webp" style="width:100%" class = "main-img">
+                        <div class="text">Reusable Cup</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">6</div>
+                        <img src="Resources/s6.webp" style="width:100%" class = "main-img">
+                        <div class="text">Bamboo Toothbrush</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">7</div>
+                        <img src="Resources/s7.webp" style="width:100%" class = "main-img">
+                        <div class="text">Natural Loofah</div>
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+
+
+            </section>
+
+
+
+
+
+            <section class="main-about">
+                <section class="about">
+                    <h1>Sustainability Starter Kit</h1>
+                    <p> &emsp; This starter kit is all you need to start the revolution. </p>
+                </section>
+                
+                <section class="price">
+                    <h2 class="value"><del>€10.99</del>&nbsp; €5.99</h2>
+                    
+                    <label for="quantity">Quantity</label><br>
+                    <input type="number" id="quantity" name="quantity" value="1" min = "1"><br>
+                </section>
+                
+
+                <section class="main-button">
+                    <button class = "cartBtn mainBtn">Add To Cart</button>
+                    <button class = "buyBtn mainBtn">Buy Now</button>
+
+
+                </section>
+            </section>
+
+        </section>
+        
+    </section>
+
+    <!-- <hr> -->
+
+    <section class="features">
+
+        <section class="list2">
+            <h2>Features</h2>
+            <ul>
+                <li>Govt Approved, Tested, and approved in TUV Rhineland, Germany</li>
+                <li>100% recyclable and non-toxic</li>
+                <li>Leak-Proof</li>
+                <li>Odorless tasteless and doesn’t react with hot beverages</li>
+                <li>Lightweight</li>
+                <li>Microwavable</li>
+            </ul>
+        </section>
+
+        <section class="list">
+            <h2>Consists of: </h2>
+            <ul>
+                <li>2 Bamboo Straws</li>
+                <li>1 Plant Based Reusable Cup with 2 lids</li>
+                <li>1 Natural Loofah </li>
+                <li>1 box of 50 Bamboo Cotton Eartips </li>
+                <li>1 Bamboo Toothbrush </li>
+            </ul>
+        </section>
+
+    </section>
+    
+    
+
+</body>
+</html>
